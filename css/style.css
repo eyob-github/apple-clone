@@ -49,7 +49,7 @@ header {
 }
 .macBookPro {
   height: 600px;
-  background-image: url(../assets/images/home/hero_macbook_neo.jpg);
+  background-image: url(../images/hero_macbook_neo.jpg);
   background-size: initial;
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -65,7 +65,7 @@ header {
 
 .iPadAir {
   height: 600px;
-  background-image: url(../assets/images/home/promo_ipad_air.jpg);
+  background-image: url(../images/promo_ipad_air.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -73,7 +73,7 @@ header {
 
 .watch {
   height: 600px;
-  background-image: url(../assets/images/home/seriec11Watch.jpg);
+  background-image: url(../images/seriec11Watch.jpg);
   background-size: initial;
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -81,7 +81,7 @@ header {
 
 .macBookPro {
   height: 600px;
-  background-image: url(../assets/images/home/promo_macbook_air_m5.jpg);
+  background-image: url(../images/promo_macbook_air_m5.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -89,7 +89,7 @@ header {
 
 .AirPods {
   height: 600px;
-  background-image: url(../assets/images/home/promo_airpodspro_3_.jpg);
+  background-image: url(../images/promo_airpodspro_3_.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -97,7 +97,7 @@ header {
 
 .business {
   height: 600;
-  background-image: url(../assets/images/home/promo_apple_business.jpg);
+  background-image: url(../images/promo_apple_business.jpg);
   background-position: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -105,7 +105,7 @@ header {
 
 .tradeIn {
   height: 600px;
-  background-image: url(../assets/images/home/promo_iphone_tradein.jpg);
+  background-image: url(../images/promo_iphone_tradein.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -114,7 +114,7 @@ header {
 .creditCard {
   margin: 0 auto;
   height: 600px;
-  background-image: url(../assets/images/home/promo_apple_card.jpg);
+  background-image: url(../images/promo_apple_card.jpg);
   background-position: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
