@@ -42,7 +42,7 @@ header {
 
 .macBookNeo {
   height: 600px;
-  background-image: url(../assets/images/home/hero_macbook_neo.jpg);
+  background-image: url(../images/hero_macbook_neo.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -57,7 +57,7 @@ header {
 
 .iPadPro {
   height: 600px;
-  background-image: url(../assets/images/home/hero_ipad_pro.jpg);
+  background-image: url(../images/hero_ipad_pro.jpg);
   background-position: initial;
   background-repeat: no-repeat;
   background-position: bottom center;
