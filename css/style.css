@@ -1,0 +1,294 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* img{
+    width: 100%;
+} */
+
+header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(12px) saturate(180%);
+
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.bp-indicator {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  font-size: 11px;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-family: monospace;
+  z-index: 9999;
+  pointer-events: none;
+}
+.iPhonePro {
+  height: 600px;
+  background-image: url(../assets/images/home/hero_iphone_family.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+.macBookNeo {
+  height: 600px;
+  background-image: url(../assets/images/home/hero_macbook_neo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+.macBookPro {
+  height: 600px;
+  background-image: url(../assets/images/home/hero_macbook_neo.jpg);
+  background-size: initial;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+.iPadPro {
+  height: 600px;
+  background-image: url(../assets/images/home/hero_ipad_pro.jpg);
+  background-position: initial;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+.iPadAir {
+  height: 600px;
+  background-image: url(../assets/images/home/promo_ipad_air.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+.watch {
+  height: 600px;
+  background-image: url(../assets/images/home/seriec11Watch.jpg);
+  background-size: initial;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+.macBookPro {
+  height: 600px;
+  background-image: url(../assets/images/home/promo_macbook_air_m5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+.AirPods {
+  height: 600px;
+  background-image: url(../assets/images/home/promo_airpodspro_3_.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+.business {
+  height: 600;
+  background-image: url(../assets/images/home/promo_apple_business.jpg);
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+.tradeIn {
+  height: 600px;
+  background-image: url(../assets/images/home/promo_iphone_tradein.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+.creditCard {
+  margin: 0 auto;
+  height: 600px;
+  background-image: url(../assets/images/home/promo_apple_card.jpg);
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+.applePromo > div {
+  border: 8px solid white;
+}
+
+/* ─────────────────────────────────────────
+       TOKENS — Apple-exact palette & type
+    ───────────────────────────────────────── */
+:root {
+  --f-bg: #f5f5f7;
+  --f-border: #d2d2d7;
+  --f-heading: #1d1d1f;
+  --f-link: #424245;
+  --f-link-hover: #0066cc;
+  --f-meta: #6e6e73;
+  --f-font:
+    -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue",
+    sans-serif;
+  --f-size-heading: 0.72rem;
+  --f-size-link: 0.8rem;
+  --f-size-meta: 0.72rem;
+}
+
+body {
+  background: #fff;
+  margin: 0;
+  font-family: var(--f-font);
+}
+
+/* Desktop Grid */
+
+.desktopView {
+  display: none;
+  padding: 2rem 0 1rem;
+}
+
+/* 5-column layout  */
+.footer-desktop .f-col {
+  padding: 0 1rem;
+  border-right: none;
+}
+
+/* Sub-section block inside a column */
+.f-section {
+  margin-bottom: 1.5rem;
+}
+
+.f-section-title {
+  display: block;
+  font-size: var(--f-size-heading);
+  font-weight: 600;
+  color: var(--f-heading);
+  letter-spacing: 0;
+  margin-bottom: 0.6rem;
+  line-height: 1.4;
+}
+
+.ul-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ul-links li {
+  margin-bottom: 0.35rem;
+}
+
+.ul-links a {
+  font-size: var(--f-size-link);
+  color: var(--f-link);
+  text-decoration: none;
+  line-height: 1.5;
+  transition: color 0.12s;
+}
+
+.ul-links a:hover {
+  color: var(--f-link-hover);
+  text-decoration: underline;
+}
+
+/* ------------ MOBILE ACCORDION SECTION ------------ */
+
+.mobileView {
+  display: block; /* shown mobile-first */
+}
+
+.f-acc-btn {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+  border: none;
+  padding: 0.85rem 1rem;
+  font-family: var(--f-font);
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: var(--f-heading);
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.1s;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.f-acc-btn:hover {
+  background: rgba(0, 0, 0, 0.03);
+}
+
+/* Chevron icon — pure CSS, no icon font needed */
+.f-acc-chevron {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-right: 1.5px solid var(--f-meta);
+  border-bottom: 1.5px solid var(--f-meta);
+  transform: rotate(45deg);
+  transition: transform 0.25s ease;
+  flex-shrink: 0;
+  margin-left: 8px;
+}
+
+.f-acc-btn[aria-expanded="true"] .f-acc-chevron {
+  transform: rotate(-135deg);
+}
+
+/* Collapsible panel */
+.f-acc-panel {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s ease;
+  background: var(--f-bg);
+}
+
+.f-acc-panel.open {
+  max-height: 600px;
+}
+
+.f-acc-panel ul {
+  list-style: none;
+  padding: 0 1rem 1rem;
+  margin: 0;
+}
+
+.f-acc-panel ul li {
+  margin-bottom: 0.6rem;
+}
+
+.f-acc-panel ul a {
+  font-size: 0.85rem;
+  color: var(--f-link);
+  text-decoration: none;
+}
+
+.f-acc-panel ul a:hover {
+  color: var(--f-link-hover);
+  text-decoration: underline;
+}
+
+/* ─────────────────────────────────────────
+       BREAKPOINT SWITCH — md and up
+    ───────────────────────────────────────── */
+@media (min-width: 768px) {
+  .desktopView {
+    display: block;
+  }
+  .mobileView {
+    display: none;
+  }
+  .footer-meta {
+    padding: 1.25rem 0;
+  }
+}
+

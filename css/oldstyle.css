@@ -1,0 +1,314 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: white;
+}
+/* Header */
+header {
+  background-color: rgb(240, 243, 247);
+}
+nav {
+  width: 78%;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  margin: 0;
+}
+nav ul a {
+  text-decoration: none;
+  color: black;
+  opacity: 0.65;
+}
+.box {
+  border: 1px solid sandybrown;
+}
+
+nav ul a:hover {
+  opacity: 1;
+}
+
+/* ========================================= */
+/* Main */
+main {
+  margin: 0 auto;
+  padding: 0;
+}
+.iPhone {
+  width: 100%;
+  margin: 0 auto;
+  height: 600px;
+  background-image: url(../assets/images/home/iPhone.jpg);
+  background-position: initial;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.iPhone h1 {
+  font-size: 4em;
+  font-weight: 800;
+}
+
+.iPhone p {
+  font-size: 3em;
+}
+
+.learnAndShop {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  gap: 2em;
+}
+
+.btn-light {
+  border: 2px solid #0071e3 !important;
+}
+
+.btn-light:hover {
+  background-color: #0071e3 !important;
+  color: white !important;
+}
+
+.macPro {
+  width: 100%;
+  margin: 0 auto;
+  height: 700px;
+  background-image: url(../assets/images/home/hero_macbook_neo.jpg);
+  background-position: initial;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 2em;
+}
+
+.iPadPro {
+  width: 100%;
+  margin: 0 auto;
+  height: 700px;
+  background-image: url(../assets/images/home/hero_ipad_pro.jpg);
+  background-position: initial;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding-top: 2em;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  /* gap: 1em; */
+}
+
+.box {
+  width: 48%;
+  padding: 10px;
+}
+
+.iPadAir {
+  margin: 0 auto;
+  height: 700px;
+  background-image: url(../assets/images/home/promo_ipad_air.jpg);
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding-top: 1em;
+}
+
+.iPadAir {
+  margin: 0 auto;
+  height: 700px;
+  background-image: url(../assets/images/home/promo_ipad_air.jpg);
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding-top: 1em;
+}
+
+.macBookPro {
+  margin: 0 auto;
+  height: 700px;
+  background-image: url(../assets/images/home/promo_macbook.jpg);
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding-top: 1em;
+}
+
+.AirPods {
+  margin: 0 auto;
+  height: 700px;
+  background-image: url(../assets/images/home/promo_airpodspro_3_.jpg);
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding-top: 1em;
+}
+
+.business {
+  margin: 0 auto;
+  height: 700px;
+  background-image: url(../assets/images/home/promo_apple_business.jpg);
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding-top: 1em;
+}
+
+.tradeIn {
+  /* margin: 0 auto; */
+  height: 700px;
+  background-image: url(../assets/images/home/promo_iphone_tradein.jpg);
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding-top: 1em;
+}
+
+.card {
+  margin: 0 auto;
+  height: 700px;
+  background-image: url(../assets/images/home/promo_apple_card.jpg);
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding-top: 1em;
+}
+
+/* Footer */
+
+/* footer */
+footer {
+  padding-top: 15px;
+  background-color: rgb(244, 246, 248);
+  font-size: 1em;
+}
+
+.footerContainer {
+  width: 75%;
+  margin: 0 auto;
+  opacity: 0.75;
+  padding-bottom: 2em;
+}
+
+.appleTradeIn {
+  margin-bottom: 20px;
+}
+
+.appleTradeIn a {
+  text-decoration: none;
+  color: black;
+}
+.bottomFooterWrapper {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgb(12, 12, 12, 0.4);
+  padding-top: 0.5em;
+  opacity: 0.8;
+}
+
+.bottomFooterWrapper ul {
+  list-style: none;
+  justify-content: center;
+}
+
+.bottomFooterWrapper h5 {
+  margin: 0.75em 0;
+}
+
+.bottomFooterWrapper ul a {
+  text-decoration: none;
+  color: black;
+}
+
+.bottomFooterWrapper ul a:hover {
+  text-decoration: underline;
+}
+
+.bottomFooter {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.applePolicy ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  justify-content: start;
+  margin-left: -250px;
+}
+
+.usaFlag img {
+  height: 16px;
+  width: 16px;
+}
+
+.findApple {
+  border-bottom: 1px solid rgb(12, 12, 12, 0.4);
+  margin-bottom: 10px;
+  padding-bottom: 1em;
+}
+
+.applePolicy ul li {
+  border-right: 0.05em solid rgb(0, 0, 0, 0.4);
+  padding-right: 5px;
+  position: relative;
+}
+
+.applePolicy ul li:last-child {
+  border-right: none;
+}
+
+.applePolicy ul li a {
+  text-decoration: none;
+  color: black;
+}
+.applePolicy ul li a:hover {
+  text-decoration: underline;
+}
