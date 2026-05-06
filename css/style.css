@@ -34,7 +34,7 @@ header {
 }
 .iPhonePro {
   height: 600px;
-  background-image: url(../assets/images/home/hero_iphone_family.jpg);
+  background-image: url(../images/hero_iphone_family.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -291,4 +291,3 @@ body {
     padding: 1.25rem 0;
   }
 }
-
